@@ -4,7 +4,7 @@
 
 ## _CRUD - PHP - MySQL_
 
-Sistema de Cadastro de Alunos e colaboradores de uma escola, com as funções de listar, cadastrar, editar e remover.
+Site de administração escolar que emprega a abordagem de Single Page Application. Ela inclui um sistema para registrar, pesquisar e alterar e deletar informações de estudantes e professores. Para realizar a navegação entre diferentes interfaces, é utilizado PHP para controlar a manipulação da página e implementar a lógica necessária.
 
 ## 👩‍💻 Tecnologias
 - HTML
