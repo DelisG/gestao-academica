@@ -15,7 +15,7 @@ Sistema de Cadastro de Alunos e colaboradores de uma escola, com as funções de
 - Banco de Dados MySQL
 
 
-## 💡 Funcionálidades
+## 💡 Funcionalidades
 
 - Listar Alunos
 - Cadastrar Aluno
@@ -31,7 +31,8 @@ Sistema de Cadastro de Alunos e colaboradores de uma escola, com as funções de
 
 ## ⚡ Integração com Banco de Dados
 Banco de dados Mysql com a ferramenta Workbench
-Segue Script de Manipulação dos dados no Banco:
+
+Script de Manipulação dos dados no Banco:
 
 
 ### Criando banco gestao-academica
