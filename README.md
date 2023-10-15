@@ -1,4 +1,4 @@
-# GESTÃO ACADÊMICA
+# 💻 GESTÃO ACADÊMICA
 
 ![](gestao-academica.png)
 
@@ -6,7 +6,7 @@
 
 Sistema de Cadastro de Alunos e colaboradores de uma escola, com as funções de listar, cadastrar, editar e remover.
 
-## 💻 Tecnologias
+## 👩‍💻 Tecnologias
 - HTML
 - CSS
 - JavaScript
@@ -67,4 +67,34 @@ INSERT INTO `gestao-academica`.`alunos` (`nome`, `data_nasc`, `cpf`) VALUES ('ju
 ### Modificando dados na tabela alunos
 ```sh
 UPDATE `gestao-academica`.`alunos` SET `nome` = 'marcia da silva' WHERE (`id` = '3');
+```
+
+### Criando tabela colaboradores
+```sh
+CREATE TABLE  colaboradores (
+	id smallint AUTO_INCREMENT PRIMARY KEY,
+	nome Varchar(50),
+	data_nasc DATE,
+	cpf varchar(15) 
+);
+```
+
+### Listando tabela colaboradores
+```sh
+select * from colaboradores;
+```
+
+### Deletando tabela colaboradores
+```sh
+DELETE FROM colaboradore;
+```
+
+### Inserindo dados na tabela colaboradores
+```sh
+INSERT INTO `gestao-academica`.`colaboradores` (`nome`, `data_nasc`, `cpf`) VALUES ('Murillo', '2003-12-10', '10211214588');
+```
+
+### Modificando dados na tabela colaboradores
+```sh
+UPDATE `gestao-academica`.`colaboradores` SET `nome` = 'julia da silva' WHERE (`id` = '58');
 ```
