@@ -1,4 +1,4 @@
-# 💻 GESTÃO ACADÊMICA
+# 👩‍🎓 GESTÃO ACADÊMICA
 
 ![](gestao-academica.png)
 
