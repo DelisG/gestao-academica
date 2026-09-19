@@ -1,0 +1,7 @@
+# variáveis de ambiente
+.env
+
+# editores
+.vscode/
+.idea/
+.DS_Store

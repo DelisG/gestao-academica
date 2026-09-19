@@ -21,7 +21,7 @@
             print "<td>" . $row->nome . "<td>";
             print "<td>" . $row->data_nasc . "<td>";
             print "<td>" . $row->cpf . "<td>";
-            print "<td><button class='btn btn-secondary' onclick=\"location.href='page=editar&id=" . $row->id . "';\">Editar</button>
+            print "<td><button class='btn btn-secondary' onclick=\"location.href='?page=editar&id=" . $row->id . "';\">Editar</button>
              <button class='btn btn-secondary' onClick=\"if(confirm('Confirma a Exclusão permanente ?')){location.href='?page=salvar&acao=excluir&id=" . $row->id . "';}else{false;}\">Excluir</button><td>";
             print "<tr>";
         }

@@ -24,7 +24,7 @@ switch ($_REQUEST["acao"]) {
         $sql = "UPDATE alunos SET
                         nome='{$nome}',
                         data_nasc='{$data_nasc}',
-                        cpf='{$cpf}',
+                        cpf='{$cpf}'
                 WHERE 
                         id=" . $_REQUEST["id"];
 
